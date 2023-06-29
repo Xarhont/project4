@@ -1,4 +1,4 @@
-.navbar {
+ .navbar {
     display: flex;
     background-color: rgb(53, 51, 51);
 }
@@ -36,11 +36,17 @@
     .nav-list {
         display: none;
     }
-
+    .nav-btn:hover {
+        background-color: rgb(70, 67, 67);
+    }
     .drop:hover .nav-list{
         display: block;
         position: absolute;
+        right: 1px;
         background-color: rgb(53, 51, 51);
+    }
+    .navbar {
+        justify-content: space-between;
     }
 }
 
